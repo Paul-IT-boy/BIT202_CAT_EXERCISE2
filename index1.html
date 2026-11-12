@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My tech stock pick</title>
+  <style>
+    body { font-family: "Times New Roman", serif; margin: 40px; }
+    table.stocks { border-collapse: collapse; width: 745px; margin: 0 auto; }
+    table.stocks td, table.stocks th { border: 1px solid #000; padding: 4px 6px; vertical-align: top; }
+    .title { text-align: center; height: 120px; }
+    .title h1 { font-style: italic; margin: 0 0 25px; font-size: 40px; }
+    .title hr { border: 0; border-top: 2px solid #aaa; }
+    .head-blue { background-color: #b7dde8; }
+    .head-green { background-color: #00b050; color: #f00; font-weight: normal; text-align: left; font-family: Calibri, Arial, sans-serif; }
+    .name-label { color: #f00; font-weight: bold; font-family: Calibri, Arial, sans-serif; }
+    .images-head { background-color: #b7dde8; text-align: center; vertical-align: bottom; font-family: Calibri, Arial, sans-serif; font-weight: normal; }
+    .cell { font-family: Calibri, Arial, sans-serif; font-size: 20px; }
+    .contact { font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+    .contact ul, .contact ol { margin: 4px 0; }
+    .contact a { color: inherit; }
+    .small-bold { font-weight: bold; font-size: 14px; }
+    .link a { color: #00f; font-size: 14px; }
+    .footer { text-align: center; font-family: Arial, Helvetica, sans-serif; font-style: italic; font-weight: bold; font-size: 28px; }
+    img { display: block; }
+  </style>
+</head>
+<body>
+  <table class="stocks">
+    <!-- Title row -->
+    <tr>
+      <td class="title" colspan="4">
+        <h1>My tech stock pick</h1>
+        <hr>
+      </td>
+    </tr>
+
+    <!-- Header rows -->
+    <tr>
+      <th class="head-blue" style="width: 20%;"></th>
+      <th class="head-green" style="width: 11%;">Symbol</th>
+      <th class="images-head" rowspan="2" style="width: 26%;">Images</th>
+      <th class="head-green">Contact</th>
+    </tr>
+    <tr>
+      <td class="name-label">Name</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <!-- Microsofti -->
+    <tr>
+      <td class="cell">Microsofti</td>
+      <td class="cell">MSFT</td>
+      <td><img src="laptop.jpg" alt="Silver laptop" width="136" height="116"></td>
+      <td class="contact">
+        <ul>
+          <li><a href="mailto:microsofti@mc.se">Email:</a> microsofti@mc.se</li>
+          <li>&copy;2013 <strong>Microsoft</strong> Corporation</li>
+        </ul>
+        <ol type="i">
+          <li>Email: microsofti@mc.se</li>
+          <li>&copy;2026 <strong>Microsoft</strong> Corporation</li>
+        </ol>
+      </td>
+    </tr>
+
+    <!-- Cisco Systems -->
+    <tr>
+      <td class="cell" rowspan="2">Cisco Systems</td>
+      <td class="cell" rowspan="2">CSCO</td>
+      <td rowspan="2"><img src="switch.jpg" alt="Grey network switch" width="150" height="85"></td>
+      <td class="contact small-bold">Switch</td>
+    </tr>
+    <tr>
+      <td class="contact link" style="height: 70px;"><a href="http://www.uk.hardware.info">www.uk.hardware.info</a></td>
+    </tr>
+
+    <!-- Footer row -->
+    <tr>
+      <td class="footer" colspan="4">&copy;BIT 202</td>
+    </tr>
+  </table>
+</body>
+</html>
